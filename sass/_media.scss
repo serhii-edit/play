@@ -31,16 +31,53 @@
   .hero__link-download {
     font-size: 16px;
   }
-  .header__bg {
-    background-size: contain;
-    min-height: 250px;
-  }
   .header__title {
     max-width: 260px;
     font-size: 35px;
     line-height: 30px;
     margin-bottom: 25px;
     padding-top: 40px;
-    padding-left: 35px;
+    padding-left: 25px;
+  }
+  .header__ul {
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .header__bg {
+    min-height: 365px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header__bg {
+    min-height: 250px;
+  }
+  .header__li {
+    margin-right: 20px;
+  }
+  .header__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .header__ul {
+    flex-direction: column;
+  }
+  .header__li {
+    margin-right: 0;
+    margin-bottom: 6px;
+  }
+  .header__link {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header__title {
+    max-width: 195px;
+    font-size: 27px;
   }
 }
