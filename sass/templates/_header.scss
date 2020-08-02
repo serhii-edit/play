@@ -3,11 +3,11 @@
 }
 
 .header__bg {
+  background: url("../img/header-hero/header-bg.jpg");
+  min-height: 655px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: url("../img/header-hero/header-bg.jpg");
-  min-height: 655px;
 }
 
 .header__title {
@@ -19,4 +19,33 @@
   font-weight: 700;
   line-height: 48px;
   letter-spacing: -3px;
+  margin-bottom: 53px;
+}
+
+.header__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.header__li {
+  margin-right: 30px;
+}
+
+.header__li:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  border-top: 1.5px solid unset;
+  color: $primary;
+  transition: 0.3s;
+  padding: 5px;
+  padding-left: 0;
+  padding-top: 5px;
+}
+
+.header__link:hover {
+  color: $default;
+  border-top: 1.5px solid $primary;
 }

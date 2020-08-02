@@ -1,0 +1,46 @@
+@media screen and (max-width: 1200px) {
+  .hero__title {
+    font-size: 150px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .hero__title {
+    font-size: 100px;
+    margin-bottom: -10px;
+  }
+  .header__title {
+    max-width: 350px;
+    font-size: 45px;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .hero__wrap-text {
+    padding-top: 100px;
+  }
+  .hero__title {
+    font-size: 65px;
+    margin-bottom: 0;
+  }
+  .hero__subtitle {
+    max-width: 340px;
+    font-size: 15px;
+  }
+  .hero__link-download {
+    font-size: 16px;
+  }
+  .header__bg {
+    background-size: contain;
+    min-height: 250px;
+  }
+  .header__title {
+    max-width: 260px;
+    font-size: 35px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    padding-top: 40px;
+    padding-left: 35px;
+  }
+}
