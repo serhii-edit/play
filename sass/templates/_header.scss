@@ -1,0 +1,22 @@
+.header-margin {
+  margin-top: -350px;
+}
+
+.header__bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("../img/header-hero/header-bg.jpg");
+  min-height: 655px;
+}
+
+.header__title {
+  padding-top: 68px;
+  padding-left: 45px;
+  max-width: 465px;
+  // font-family: "Myriad Pro";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -3px;
+}

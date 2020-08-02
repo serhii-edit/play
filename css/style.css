@@ -329,6 +329,11 @@ a {
   text-decoration: none;
   font-style: normal; }
 
+span {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -349,8 +354,48 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.hero__wrap-text {
+  padding-top: 75px;
+  margin-left: 35px; }
+
 .hero__title {
   font-size: 202px;
   font-weight: 700;
   font-family: sans-serif;
+  letter-spacing: -3px;
+  margin-bottom: -28px;
+  margin-left: -10px; }
+
+.hero__subtitle {
+  max-width: 405px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 28px; }
+
+.hero__link-download {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFC600;
+  transition: 0.3s; }
+
+.hero__link-download:hover {
+  color: #4FBCFF; }
+
+.header-margin {
+  margin-top: -350px; }
+
+.header__bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("../img/header-hero/header-bg.jpg");
+  min-height: 655px; }
+
+.header__title {
+  padding-top: 68px;
+  padding-left: 45px;
+  max-width: 465px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 48px;
   letter-spacing: -3px; }

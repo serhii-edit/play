@@ -8,9 +8,36 @@
 
 }
 
+.hero__wrap-text {
+  padding-top: 75px;
+  margin-left: 35px;
+  // margin-bottom: 65px;
+}
+
 .hero__title {
   font-size: 202px;
   font-weight: 700;
   font-family: sans-serif;
   letter-spacing: -3px;
+  margin-bottom: -28px;
+  margin-left: -10px;
+}
+
+.hero__subtitle {
+  max-width: 405px;
+  font-size: 18px;
+  font-weight: 400; 
+  margin-bottom: 28px;
+}
+
+.hero__link-download {
+  // max-width: 141px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFC600;
+  transition: 0.3s;
+}
+
+.hero__link-download:hover {
+  color: #4FBCFF;
 }
