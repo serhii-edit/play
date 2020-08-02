@@ -81,3 +81,12 @@
     font-size: 27px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .hero__title {
+    font-size: 55px;
+  }
+  .hero__wrap-text {
+    margin-left: 15px;
+  }
+}
