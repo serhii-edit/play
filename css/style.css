@@ -303,5 +303,54 @@ template {
 [hidden] {
   display: none; }
 
+html {
+  box-sizing: border-box; }
+
 body {
-  background-color: red; }
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  font-style: normal; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 80%; }
+
+body {
+  background-color: #161616;
+  color: #fff; }
+
+.primary {
+  color: #FFC600; }
+
+.hero__bg {
+  width: 100%;
+  min-height: 780px;
+  background: url("../img/header-hero/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.hero__title {
+  font-size: 202px;
+  font-weight: 700;
+  font-family: sans-serif;
+  letter-spacing: -3px; }
