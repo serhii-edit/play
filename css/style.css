@@ -442,7 +442,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 72px; }
+  margin-bottom: 55px; }
 
 .about__wrap-title {
   padding-left: 133px;
@@ -506,6 +506,19 @@ body {
   font-size: 13px;
   max-width: 320px;
   font-weight: 400; }
+
+.projects__container {
+  background-color: #fff;
+  color: #000; }
+
+.projects__size {
+  font-size: 50px; }
+
+.projects__title {
+  font-size: 30px; }
+
+.projects__wrap-title {
+  padding-left: 80px; }
 
 @media screen and (max-width: 1200px) {
   .hero__title {
@@ -572,3 +585,69 @@ body {
     font-size: 55px; }
   .hero__wrap-text {
     margin-left: 15px; } }
+
+@media screen and (max-width: 1350px) {
+  .about__wrap-title {
+    padding-left: 75px; } }
+
+@media screen and (max-width: 1260px) {
+  .about__wrap-title {
+    padding-left: 35px; } }
+
+@media screen and (max-width: 1200px) {
+  .about__wrap-title {
+    padding-left: 25px;
+    padding-right: 35px; } }
+
+@media screen and (max-width: 1330px) {
+  .about__bottom-subtitle-1, .about__bottom-subtitle-2 {
+    max-width: 200px; } }
+
+@media screen and (max-width: 920px) {
+  .about__content-top {
+    flex-direction: column;
+    justify-content: none; }
+  .about__wrap-title {
+    margin-bottom: 45px; }
+  .about__wrap-text {
+    margin: 0 auto;
+    width: 464px; } }
+
+@media screen and (max-width: 667px) {
+  .about__wrap-text {
+    max-width: 320px; } }
+
+@media screen and (max-width: 475px) {
+  .about__wrap-text {
+    max-width: 250px; }
+  .about__title-size {
+    font-size: 40px; }
+  .about__subtitle {
+    font-size: 50px; } }
+
+@media screen and (max-width: 405px) {
+  .about__wrap-text {
+    max-width: 230px; } }
+
+@media screen and (max-width: 340px) {
+  .about__wrap-text {
+    max-width: 190px; } }
+
+@media screen and (max-width: 290px) {
+  .about__wrap-text {
+    max-width: 190px; }
+  .about__title-size {
+    font-size: 34px; }
+  .about__title {
+    font-size: 26px; }
+  .about__subtitle {
+    font-size: 43px; } }
+
+@media screen and (max-width: 920px) {
+  .about__content-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: center; }
+  .about__bottom-box {
+    margin-bottom: 70px; } }
