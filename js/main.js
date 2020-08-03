@@ -7,8 +7,13 @@ var swiper = new Swiper('.swiper-container', {
   slidesPerGroup: 4,
   slidesPerColumnFill: "row",
   pagination: {
-    el: '.swiper-pagination',
+    el: '.projects-swiper-pagination',
     clickable: true,
+    // type: "bullets",
+    type: "bullets",
+    bulletElement: "span",
+    bulletClass: "projects-swiper-bullet",
+    bulletActiveClass: "projects-swiper-active-bullet",
   },
 });
 

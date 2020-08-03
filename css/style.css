@@ -461,7 +461,7 @@ body {
   font-weight: 600; }
 
 .about__subtitle-border {
-  border-bottom: 1px solid #717171;
+  border-bottom: 1px solid #D1D1D1;
   border-spacing: 0em; }
 
 .about__wrap-text {
@@ -519,12 +519,17 @@ body {
   font-size: 30px; }
 
 .projects__wrap-title {
-  padding-left: 80px; }
+  padding-left: 80px;
+  margin-bottom: 25px; }
 
-.swiper-container {
+.projects__title-border {
+  border-bottom: 1px solid #D1D1D1; }
+
+.project-swiper-container {
   width: 100%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-top: 50px; }
 
 .swiper-slide {
   font-size: 18px;
@@ -542,6 +547,102 @@ body {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; }
+
+.projects-swiper-pagination {
+  position: absolute;
+  height: 27px;
+  top: 0;
+  bottom: none;
+  padding-left: 80px;
+  font-size: 14px; }
+
+.projects-swiper-bullet {
+  margin-right: 15px;
+  transition: 0.3s; }
+
+.projects-swiper-bullet:last-child {
+  margin-right: 0; }
+
+.projects-swiper-bullet:hover {
+  cursor: pointer;
+  color: #FFC600; }
+
+.projects-swiper-active-bullet:first-child {
+  margin-left: 0; }
+
+.projects-swiper-active-bullet {
+  padding-bottom: 3px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-bottom: 1.5px solid #FFC600; }
+
+.projects-swiper-active-bullet:last-child {
+  margin-right: 0; }
+
+.projects-swiper-bullet[aria-label="Go to slide 1"]::before {
+  content: "ALL WORKS"; }
+
+.projects-swiper-bullet[aria-label="Go to slide 2"]::before {
+  content: "GAMES"; }
+
+.projects-swiper-bullet[aria-label="Go to slide 3"]::before {
+  content: "APLICATIONS"; }
+
+.projects-swiper-bullet[aria-label="Go to slide 4"]::before {
+  content: "CONTENT DEVELOPMENT"; }
+
+.projects__slide {
+  max-width: 300px;
+  min-height: 267px;
+  margin-bottom: 3px; }
+
+.projects__slide-1 {
+  background: url("../img/projects/projects-1-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.projects__slide-2 {
+  background: url("../img/projects/projects-1-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.projects__slide-3 {
+  background: url("../img/projects/projects-1-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.projects__slide-4 {
+  background: url("../img/projects/projects-1-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.projects__slide-5 {
+  background: url("../img/projects/projects-1-5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.projects__slide-6 {
+  background: url("../img/projects/projects-1-6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.projects__slide-7 {
+  background: url("../img/projects/projects-1-7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.projects__slide-8 {
+  background: url("../img/projects/projects-1-8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 @media screen and (max-width: 1200px) {
   .hero__title {
