@@ -775,3 +775,26 @@ body {
     align-items: center; }
   .about__bottom-box {
     margin-bottom: 70px; } }
+
+@media screen and (max-width: 1200px) {
+  .projects__slide {
+    min-height: 190px; } }
+
+@media screen and (max-width: 865px) {
+  .projects__slide {
+    min-height: 155px; } }
+
+@media screen and (max-width: 760px) {
+  .projects__slide {
+    min-height: 120px; } }
+
+@media screen and (max-width: 720px) {
+  .projects__title {
+    font-size: 20px; }
+  .projects__size {
+    font-size: 30px; }
+  .projects__wrap-title {
+    padding-left: 20px; }
+  .projects-swiper-pagination {
+    padding-left: 20px;
+    font-size: 12.5px; } }
