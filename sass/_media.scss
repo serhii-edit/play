@@ -318,5 +318,32 @@
   }
 }
 
-
 // media for projects (swiper) - end
+
+
+//xxxxxxxxxxxxxxxxxxxxx
+
+
+// media for (Process) - section
+
+
+@media screen and (max-width: 530px) {
+  .process__wrap-top {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .process__title {
+    font-size: 20px;
+  }
+  .letter-size {
+    font-size: 33px;
+  }
+}
+
+// Process (END)
