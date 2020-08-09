@@ -1,0 +1,56 @@
+.feedback__container {
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 135px;
+}
+
+.feedback__title {
+  font-weight: 300;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 55px;
+  margin-bottom: 24px;
+}
+
+.feedback__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.feedback__wrap-text {
+  max-width: 625px;
+  margin-right: 85px;
+}
+
+.feedback__subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #DFDFDF;
+}
+
+.feedback__subtitle-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #DFDFDF;
+}
+
+.feedback__wrap-person {
+  text-align: center;
+}
+
+.feedback__img-tag {
+  margin-bottom: 20px;
+}
+
+.feedback__person-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.feedback__person-speciality {
+  font-size: 14px;
+  font-weight: 400;
+}
