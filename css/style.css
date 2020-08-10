@@ -1000,7 +1000,8 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 75px;
-  max-width: 412px; }
+  max-width: 387px;
+  margin-bottom: 60px; }
 
 .contact-form__input-wrap {
   margin-bottom: 18px; }
@@ -1040,13 +1041,43 @@ body {
   border: 1.5px solid #C5C5C5;
   padding-left: 15px;
   padding-top: 12px;
-  padding-bottom: 12px; }
+  padding-bottom: 12px;
+  padding-right: 5px; }
 
 textarea {
   resize: none; }
 
 .contact-form__massage {
-  height: 76px !important; }
+  height: 48px !important; }
+
+.contact-form__send {
+  border: unset;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+  width: unset !important;
+  background-color: #FFC600;
+  padding: 11px 35px; }
+
+.contact-form__info {
+  margin-left: 100px; }
+
+.contact-form__title {
+  color: #fff;
+  height: 15px;
+  font-weight: 400; }
+
+.contact-form__title-margin {
+  margin-bottom: 25px; }
+
+.contact-form__info-wrap {
+  display: flex;
+  flex-direction: row; }
+
+.contact-form__address {
+  color: #c5c5c5;
+  font-size: 13px;
+  font-weight: 400; }
 
 @media screen and (max-width: 1200px) {
   .hero__title {
