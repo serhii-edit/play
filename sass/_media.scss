@@ -709,3 +709,50 @@
 }
 
 // Section (Contact) END
+
+
+
+// Section (Footer) START
+
+  @media screen and (max-width: 1400px) {
+    .footer__right-wrap-title {
+      max-width: 510px;
+    }
+    .footer__right-title {
+      font-size: 70px;
+    }
+  }
+
+  @media screen and (max-width: 1110px) {
+    .footer__right-wrap-title {
+      max-width: 355px;
+    }
+    .footer__right-title {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  @media screen and (max-width: 906px) {
+    .footer__left {
+      padding-bottom: 45px;
+    }
+    .footer__content {
+      flex-direction: column-reverse;
+      justify-content: unset;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .footer__left-title {
+      padding-right: 0;
+    }
+    .footer__left {
+      padding-left: 0;
+    }
+    .footer-right-bg {
+      height: 550px;
+    }
+  }
+
+// Section (Footer) END
