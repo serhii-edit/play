@@ -1,0 +1,45 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: #fff;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*# sourceMappingURL=setting.css.map */
