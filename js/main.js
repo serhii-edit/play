@@ -32,6 +32,7 @@ var blogSwiper = new Swiper('.swiper-container-blog', {
     bulletClass: "swiper-bullet-blog",
     bulletActiveClass: "swiper-active-bullet-blog",
   },
+  // breakpoint
 });
 
 // swiper (end)

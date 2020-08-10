@@ -17,7 +17,7 @@
 }
 
 .swiper-container-blog {
-  
+  top: -75px;
 }
 
 .swiper-wrapper-blog {
@@ -32,7 +32,7 @@
   display: flex;
   justify-content: flex-end;
   height: 350px !important;
-  max-width: 750px;
+  max-width: 785px;
 }
 
 .swiper-pagination-blog {
@@ -40,7 +40,7 @@
   right: unset !important;
   left: unset !important;
   bottom: unset !important;
-  top: 135px !important;
+  top: 248px !important;
   // padding-top: 20px;
   left: 140px !important;
   display: flex;
@@ -93,12 +93,12 @@
 .blog__wrap-box {
   display: flex;
   flex-direction: row;
-  padding-right: 60px;
+  padding-right: 28px;
 }
 
 .blog__box {
   max-width: 210px;
-  margin-right: 35px;
+  margin-right: 66px;
 }
 
 .blog__box:last-child {
