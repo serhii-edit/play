@@ -21,6 +21,7 @@ var blogSwiper = new Swiper('.swiper-container-blog', {
   direction: 'vertical',
   autoHeight: true,
   slidesPerView: 1,
+  allowTouchMove: false,
   // slidesPerColumn: 1,
   slidesPerGroup: 1,
   // slidesPerColumnFill: "column",
@@ -29,9 +30,15 @@ var blogSwiper = new Swiper('.swiper-container-blog', {
     el: '.swiper-pagination-blog',
     clickable: true,
     type: "bullets",
-    // bulletElement: "span",
-    // bulletClass: "swiper-bullet-blog",
-    // bulletActiveClass: "swiper-active-bullet-blog",
+    bulletElement: "span",
+    bulletClass: "swiper-bullet-blog",
+    bulletActiveClass: "swiper-active-bullet-blog",
+  },
+  // nested: false,
+  breakpoint: {
+    1230: {
+
+    }
   },
   // breakpoint
 });

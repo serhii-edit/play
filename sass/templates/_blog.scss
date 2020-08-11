@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.blog-swiper-wrapper {
+  height: 543px !important;
+}
+
 .blog__border {
   padding-bottom: 3px;
 }
@@ -32,6 +36,7 @@
   display: flex;
   flex-direction: row;
   padding-right: 50px;
+  margin-top: 30px;
 }
 
 .blog__box {
@@ -59,3 +64,66 @@
   font-size: 12.5px;
   font-weight: 400px;
 }
+
+// pagination start
+
+.swiper-pagination-blog {
+  position: absolute;
+  top: 295px !important;
+  left: 60px !important;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+
+}
+
+.swiper-bullet-blog {
+  margin-bottom: 25px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.swiper-bullet-blog:last-child {
+  margin-bottom: 0;
+}
+
+// pagination start
+
+.swiper-bullet-blog[aria-label="Go to slide 1"]::before {
+  content: "Latest Posts"
+}
+.swiper-bullet-blog[aria-label="Go to slide 2"]::before {
+  content: "App Design"
+}
+
+.swiper-bullet-blog[aria-label="Go to slide 3"]::before {
+  content: "App Development"
+}
+.swiper-bullet-blog[aria-label="Go to slide 4"]::before {
+  content: "Design Solutions"
+}
+
+.swiper-bullet-blog[aria-label="Go to slide 5"]::before {
+  content: "Quality Assurance"
+}
+.swiper-bullet-blog[aria-label="Go to slide 6"]::before {
+  content: "Development Mode"
+}
+
+.swiper-bullet-blog[aria-label="Go to slide 7"]::before {
+  content: "What’s Out There"
+}
+
+
+
+.swiper-active-bullet-blog {
+  color: $primary;
+}
+
+// .swiper-pagination-bullet-active
+//  aria-label="Go to slide 1
+
+// pagination end
