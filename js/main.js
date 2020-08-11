@@ -23,14 +23,15 @@ var blogSwiper = new Swiper('.swiper-container-blog', {
   slidesPerView: 1,
   // slidesPerColumn: 1,
   slidesPerGroup: 1,
-  // slidesPerColumnFill: "row",
+  // slidesPerColumnFill: "column",
+  // slideClass: "blog-slide",
   pagination: {
     el: '.swiper-pagination-blog',
     clickable: true,
     type: "bullets",
-    bulletElement: "span",
-    bulletClass: "swiper-bullet-blog",
-    bulletActiveClass: "swiper-active-bullet-blog",
+    // bulletElement: "span",
+    // bulletClass: "swiper-bullet-blog",
+    // bulletActiveClass: "swiper-active-bullet-blog",
   },
   // breakpoint
 });
