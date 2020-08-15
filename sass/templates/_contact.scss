@@ -99,6 +99,15 @@ textarea {
   padding: 11px 35px;
 }
 
+.contact-form__send {
+  transition: 0.3s;
+}
+
+.contact-form__send:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
 .contact-form__info {
   margin-left: 100px;
 }
