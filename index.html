@@ -897,7 +897,7 @@
               <span class="provided__title-border"><span class="primary team__letter-size">C</span>ontact <span class="team__letter-size">U</span>s</span>
             </h3>
 
-            <form class="contact__form contact-form contactForm">
+            <form action="send.php" method="POST" class="contact__form contact-form contactForm">
 
               <div class="contact-form__input-wrap">
                 <input type="text" placeholder="Your full name" name="userName" id="userName" class="contact-form__input">
@@ -1111,6 +1111,8 @@
 <script src="js/jquery.mask.min.js"></script>
 
 <script>
+    //  $('[type=tel]').mask('+1 (000) 000-0000', {placeholder: "+1 (___) ___-____"});
+
   $(".contactForm").validate({
     errorClass: "error-input",
     
@@ -1120,6 +1122,11 @@
         required: true,
         minlength: 2,
         maxlength: 100,
+      },
+      userPhone: {
+        required: true,
+        // minlength: 2,
+        // maxlength: 100,
       },
       userEmail: {
         required: true,
@@ -1139,6 +1146,9 @@
         required: "Name is required",
         minlength: "Full Name",
       },
+      userPhone: {
+        required: "Phone is required",
+      },
       userEmail: {
         required: "Email is required",
         email: "Format-Example: name@domain.com",
@@ -1147,6 +1157,23 @@
         required: "Type your massage",
         maxlength: "Too much!",
       },
+    },
+
+    submitHandler: function(form) {
+    $.ajax({
+      type: "POST",
+      url: "send.php",
+      data: $(form).serialize(),
+      // dataType: "dataType",
+      success: function (response) {
+        console.log("#1 Ajax worked, answer server:" + response);
+        alert("#1 Contact form has been Submited Succesful");
+        $(form)[0].reset();
+      },
+      error: function (response) {
+        console.log("#1 The form does't work" + response);
+      }
+    });
     }
 
    });
