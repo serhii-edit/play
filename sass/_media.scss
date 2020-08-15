@@ -803,4 +803,17 @@
     }
   }
 
+  @media screen and (max-width: 510px) {
+    .footer__copyright {
+      font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 405px) {
+    .footer__copyright {
+      max-width: 215px
+    }
+  }
+
+
 // Section (Footer) END

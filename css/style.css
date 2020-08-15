@@ -372,7 +372,7 @@ body {
   opacity: 0.1;
   transition: 0.3s; }
 
-#arrowTop, img {
+#arrowTop img {
   width: 35px; }
 
 #arrowTop.show {
@@ -1215,6 +1215,17 @@ textarea {
   line-height: 88.64px;
   letter-spacing: -3px; }
 
+.footer__wrap-copyright {
+  text-align: center;
+  padding-top: 30px; }
+
+.footer__copyright {
+  display: inline-block;
+  color: #919191;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px; }
+
 @media screen and (max-width: 1200px) {
   .hero__title {
     font-size: 150px; } }
@@ -1732,3 +1743,11 @@ textarea {
     padding-left: 0; }
   .footer-right-bg {
     height: 550px; } }
+
+@media screen and (max-width: 510px) {
+  .footer__copyright {
+    font-size: 13px; } }
+
+@media screen and (max-width: 405px) {
+  .footer__copyright {
+    max-width: 215px; } }
