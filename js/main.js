@@ -1,4 +1,4 @@
-const { tree } = require("gulp");
+// const { tree } = require("gulp");
 
 
 
@@ -82,19 +82,7 @@ var blogSwiper = new Swiper('.swiper-container-blog', {
     bulletActiveClass: "swiper-active-bullet-blog",
   },
   // nested: false,
-  breakpoint: {
-    1230: {
-
-    }
-  },
-  // breakpoint
+  
 });
 // swiper (end)
-
-
-  // validation form
-
-  
-
-  // validation forn (end)
 
