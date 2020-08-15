@@ -1,3 +1,4 @@
+const { tree } = require("gulp");
 
 
 // Slow href
@@ -88,3 +89,50 @@ var blogSwiper = new Swiper('.swiper-container-blog', {
 });
 // swiper (end)
 
+$(document).ready(function () {
+  
+
+  // validation form
+
+  $("#contactForm").validate({
+
+    rules: {
+      // simple rule, converted to {required:true}
+      userName: {
+        required: true,
+        minlength: 3,
+      },
+
+      userPhone: "required",
+      userMassage: "required",
+
+      // compound rule
+      userEmail: {
+        required: true,
+        email: true,
+      },
+    },
+    messages: {
+
+      userName: {
+        required: "Your is required",
+        minlength: "Your full name",
+      },
+
+      userEmail: {
+        required: "Email is required",
+        email: "Example: nase@domain.com",
+      },
+
+      userPhone: "Phone is required",
+      
+      userMassage: "Massage is required",
+      
+    }
+
+  });
+
+  // validation forn (end)
+
+
+});

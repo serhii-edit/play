@@ -897,25 +897,25 @@
               <span class="provided__title-border"><span class="primary team__letter-size">C</span>ontact <span class="team__letter-size">U</span>s</span>
             </h3>
 
-            <form action="" class="contact__form contact-form">
+            <form action="" id="contactForm" class="contact__form contact-form">
 
               <div class="contact-form__input-wrap">
-                <input type="text" placeholder="Your name" class="contact-form__input">
+                <input type="text" placeholder="Your full name" name="userName" id="userName" class="contact-form__input">
               </div>
               <!-- /.contact-form__input-wrap -->
               <div class="contact-form__input-wrap contact-form__wrap-row">
                 <div class="contact-form__wrap__input-row">
-                  <input type="tel" class="contact-form__input" placeholder="Mobile">
+                  <input type="tel" class="contact-form__input" id="userPhone" name="userPhone" placeholder="Mobile">
                 </div>
                 <!-- /.contact-form__wrap__input-row -->
                 <div class="contact-form__wrap__input-row">
-                  <input type="email" class="contact-form__input" placeholder="Email">
+                  <input type="email" class="contact-form__input" id="userEmail" name="userEmail" placeholder="Email">
                 </div>
                 <!-- /.contact-form__wrap__input-row -->
               </div>
               <!-- /.contact-form__input-wrap -->
               <div class="contact-form__input-wrap">
-                <textarea class="contact-form__input contact-form__massage"  name="" id=""  placeholder="Massage"></textarea>
+                <textarea class="contact-form__input contact-form__massage" id="userMassage"  name="userMassage" placeholder="Massage"></textarea>
               </div>
               <!-- /.contact-form__input-wrap -->
               
@@ -1106,6 +1106,7 @@
   <script src="js/swiper-bundle.min.js"></script>
   <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
+  <script src="js/jquery.validate.min.js"></script>
 
   <script src="js/main.js"></script>
   
