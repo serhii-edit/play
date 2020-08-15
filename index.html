@@ -897,7 +897,7 @@
               <span class="provided__title-border"><span class="primary team__letter-size">C</span>ontact <span class="team__letter-size">U</span>s</span>
             </h3>
 
-            <form action="" id="contactForm" class="contact__form contact-form">
+            <form class="contact__form contact-form contactForm">
 
               <div class="contact-form__input-wrap">
                 <input type="text" placeholder="Your full name" name="userName" id="userName" class="contact-form__input">
@@ -1103,10 +1103,63 @@
     new WOW().init();
   </script>
 
-  <script src="js/swiper-bundle.min.js"></script>
-  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
-  <script src="js/jquery.validate.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+
+<script src="js/jquery.validate.min.js"></script>
+
+<script src="js/jquery.mask.min.js"></script>
+
+<script>
+  $(".contactForm").validate({
+    errorClass: "error-input",
+    
+    rules: {
+     
+      userName: {
+        required: true,
+        minlength: 2,
+        maxlength: 100,
+      },
+      userEmail: {
+        required: true,
+        email: true,
+        maxlength: 100,
+      },
+
+      userMassage: {
+        required: true,
+        maxlength: 300,
+      },
+      
+    },
+
+    messages: {
+      userName: {
+        required: "Name is required",
+        minlength: "Full Name",
+      },
+      userEmail: {
+        required: "Email is required",
+        email: "Format-Example: name@domain.com",
+      },
+      userMassage: {
+        required: "Type your massage",
+        maxlength: "Too much!",
+      },
+    }
+
+   });
+
+
+   // mask for phone input (start)
+
+   $('[type=tel]').mask('+1 (000) 000-0000', {placeholder: "+1 (___) ___-____"});
+
+   // mask for phone input (end)
+
+
+</script>
 
   <script src="js/main.js"></script>
   

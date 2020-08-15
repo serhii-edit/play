@@ -383,6 +383,16 @@ body {
   background-color: #FFC600;
   opacity: 1; }
 
+label.error-input {
+  color: #F5624C;
+  font-weight: 400; }
+
+input.error-input {
+  border-bottom: 2px solid #F5624C; }
+
+textarea.error-input {
+  border-bottom: 2px solid #F5624C; }
+
 .hero__bg {
   width: 100%;
   min-height: 780px;
