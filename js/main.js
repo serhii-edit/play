@@ -1,5 +1,49 @@
-// swiper 
 
+
+// Slow href
+$(function(){
+  $('a[href^="#"]').on('click', function(event) {
+    // отменяем стандартное действие
+    event.preventDefault();
+    
+    var sc = $(this).attr("href"),
+        dn = $(sc).offset().top;
+    /*
+    * sc - в переменную заносим информацию о том, к какому блоку надо перейти
+    * dn - определяем положение блока на странице
+    */
+    
+    $('html, body').animate({scrollTop: dn}, 1000);
+    
+    /*
+    * 1000 скорость перехода в миллисекундах
+    */
+  });
+});
+// Slow href end
+
+
+// top arrow
+
+var btn = $("#arrowTop");
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 2000) {
+    btn.addClass("show");
+  } else {
+    btn.removeClass("show");
+  }
+});
+
+btn.on("click", function(e) {
+  e.preventDefault();
+  $("html, body").animate({scrollTop: 0}, "500");
+});
+
+// tow arrow end
+
+
+// swiper 
 var swiper = new Swiper('.project-swiper-container', {
   direction: 'horizontal',
   slidesPerView: 4,
@@ -42,5 +86,5 @@ var blogSwiper = new Swiper('.swiper-container-blog', {
   },
   // breakpoint
 });
-
 // swiper (end)
+

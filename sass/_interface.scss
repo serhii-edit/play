@@ -6,3 +6,45 @@ body {
 .primary {
   color: #FFC600;
 }
+
+// .arrow-top-fade-out {
+//   opacity: 0.5;
+// }
+
+#arrowTop {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 30;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 4px;
+  background-color: #fff;
+  visibility: hidden;
+  opacity: 0.1;
+  transition: 0.3s;
+
+}
+
+#arrowTop,img {
+  width: 35px;
+}
+
+#arrowTop.show {
+  visibility: visible;
+  opacity: 0.6;
+}
+
+#arrowTop:hover {
+  background-color: $primary;
+  opacity: 1;
+}
