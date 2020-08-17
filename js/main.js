@@ -145,7 +145,6 @@ $(".contactForm").validate({
     // dataType: "dataType",
     success: function (response) {
       console.log("#1 Ajax worked, answer server:" + response);
-      alert("#1 Contact form has been Submited Succesful");
       modal.style.visibility="visible";
       $(form)[0].reset();
     },
