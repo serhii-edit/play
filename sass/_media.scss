@@ -824,3 +824,29 @@
     // pointer-events:none;
   }
 }
+
+@media screen and (max-width: 570px) {
+  .modal-thank__content {
+    padding: 20px;
+  }
+  .modal-thank__img {
+    width: 70px;
+  }
+  .modal-thank__subtitle {
+    font-size: 13px;
+  }
+  .modal-thank__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .modal-thank__title {
+    font-size: 14px;
+  }
+  .modal-thank__content {
+    padding: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
