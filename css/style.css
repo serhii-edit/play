@@ -313,7 +313,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: "Baloo Tamma", sans-serif !important; }
 
 .main {
   position: absolute;
@@ -339,6 +339,14 @@ span {
   margin: 0;
   padding: 0;
   border: 0; }
+
+@font-face {
+  font-family: "Baloo Tamma";
+  src: url("../fonts/BalooTamma2-Regular.woff") format(woff);
+  src: url("../fonts/BalooTamma2-Regular.woff2") format(woff2);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
 
 .container {
   margin: 0 auto;
